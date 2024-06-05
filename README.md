@@ -19,32 +19,3 @@ KeyboardCanvas is an interactive Python project that utilizes the Turtle graphic
 4. Execute the Python script to launch the application.
 5. Use the arrow keys for directional movement and 'C' key for screen clearing.
 
-## Example Code Snippet
-```python
-import turtle
-
-# Function definitions for movement and screen clearing
-def move_forward():
-    turtle.forward(10)
-
-def move_backward():
-    turtle.backward(10)
-
-def turn_left():
-    turtle.left(15)
-
-def turn_right():
-    turtle.right(15)
-
-def clear_screen():
-    turtle.clear()
-
-# Set up screen and key bindings
-screen = turtle.Screen()
-screen.title("KeyboardCanvas")
-screen.listen()
-screen.onkey(move_forward, "Up")
-screen.onkey(move_backward, "Down")
-screen.onkey(turn_left, "Left")
-scr
-
